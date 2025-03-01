@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #f9faf8;
+}
+
+a{
+	text-decoration: none;
+	color: #f9faf8;
+	font-weight: 800;
+}
+a:hover{
+	transition: ease-in-out;
+	text-decoration: underline;
+}
+
+.logo{
+	font-size: 24px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+.bg{
+	background-color: #1f2937;
+}
+
+.btn:hover{
+	transform: scale(1.05);
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 100px;
+	height: 10vh;
+}
+@media (width <= 750px) {
+	.container{
+		justify-content: center;
+	}
+}
+
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.wrapper{
+	margin: auto 100px;
+	height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+}
+
+.gray-box{
+	background-color: grey;
+	height: 30vh;
+	width: 30vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left h1{
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.left p{
+	font-size: 18px;
+}
+
+.btn{
+	padding: 20px 30px;
+	border-radius: 10px;
+	background-color: #3882f6;
+	color: #f9faf8;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.second h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: 900;
+	height: 15vh;
+}
+
+.cards{
+	height: 85vh;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card p{
+	color: #1f2937;
+	text-align: center;
+}
+
+.card:hover{
+	transform: scale(1.05);
+}
+
+.box{
+	border: solid 3px #3882f6;
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.third .bg2{
+	background-color: #e5e7eb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.text{
+	color: #1f2937;
+	font-size: 36px;
+}
+
+.wrapper2 p{
+	display: flex;
+	justify-content: right;
+	color: #1f2937;
+}
+
+.forth{
+	height: 85vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.blue-box{
+	height: 50vh;
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #3882f6;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+.blue-box .btn{
+	border: solid 3px white;
+	cursor: pointer;
+}
+
+.footer{
+	height: 15vh;
+	background-color: #1f2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+
